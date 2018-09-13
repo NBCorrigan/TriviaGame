@@ -1,16 +1,3 @@
-/* Pseudo Code
-A basic Multiple Choice Trivia Game
- 
-Click to Start
-Timer begins at 60 seconds and countdown
-Player goes through all 10 questions
-player can only guess one answer per question
-Once completed, player submit's answers
-HTML is updated with users score
-Score includes: time spent, answers correct, and answers wrong */
-
-// --------------------------------------------------------------- 
-
 var questions = [{
     ques: "What is Kitty Pryde's alias?",
     ans: ["Rogue", "Siren", "Storm", "Shadowcat"],
@@ -120,7 +107,6 @@ if (seconds <= 0) {
     $('.container').fadeOut(500);
     var correctAnswers = 0;
     var wrongAnswers = 0;
-    var unAnswered = 0;
 
     // loop through correctArray & radioName to match html elements & answers
     for (var i = 0; i < 10; i++) {
