@@ -1,5 +1,5 @@
 # TriviaGame
-![DemoPic](./assets/demo.png)
+![DemoPic](./assets/images/demo.png)<br>
 Trivia Game using Jquery<br>
 Live demo: <a href="https://nbcorrigan.github.io/unit-4-game/">https://nbcorrigan.github.io/triviagame</a><br>
 *Click to Start<br>
