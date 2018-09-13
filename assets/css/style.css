@@ -1,0 +1,130 @@
+body {
+    background-image: url('../images/xmen4.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    color: green;
+}
+
+h2 {
+    font-family: 'Monoton', cursive;
+    font-size: 35px;
+    color: green;
+}
+
+#screen {
+    background: white;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.black-background {
+    background-color: #000000;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.Box {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 40%;
+    border-radius: 12px;
+}
+
+.Box2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    border-radius: 12px;
+    
+}
+
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+label {
+    color: black;
+}
+
+#answerScreen {
+    display: none;
+    background:white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#timesUp {
+    display: none;
+    background: white;
+    width: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.up {
+    font-family: 'Monoton', cursive;
+    color: red;
+}
+
+.timeRemain {
+    padding: 2%;
+    color: red;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
+body .container {
+    background: white;
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: green;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.questions {
+    font-size: 25px;
+    
+}
+
+.ques,
+label {
+    padding: 1%;
+}
+
+header {
+    font-family: 'Monoton', cursive;
+    font-size: 80px;
+    color:green;
+    margin-top: 2%;
+}
