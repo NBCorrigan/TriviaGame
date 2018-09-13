@@ -6,7 +6,7 @@ var questions = [{
     divClass: ".kitty"
 },
 {
-    ques: "Which Ragin' Cajun has a thing for Rogue?",
+    ques: "Which Cajun has a thing for Rogue?",
     ans: ["Cyclops", "Gambit", "Wolverine", "Iceman"],
     name: "gambit",
     correct: "Gambit",
