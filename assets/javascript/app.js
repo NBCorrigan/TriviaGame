@@ -128,10 +128,8 @@ if (seconds <= 0) {
         if ($('input:radio[name="' + questions[i].name + '"]:checked').val() === questions[i].correct) {
 
             correctAnswers++;
-            console.log("this is correct! number:" + i)
         } else {
             wrongAnswers++;
-            console.log("this is wrong! number:" + i)
         };
     }
     $('#correctTimesUp').append(correctAnswers);
@@ -157,7 +155,6 @@ var gradeQuiz = $('#sub-but').on('click', function() {
 
 var correctAnswers = 0;
 var wrongAnswers = 0;
-var unAnswered = 0;
 
 // loop through correctArray & radioName to match html elements & answers
 for (var i = 0; i < 10; i++) {

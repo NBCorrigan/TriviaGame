@@ -45,8 +45,6 @@ h2 {
     margin: 0 auto;
     text-align: center;
     padding: 4%;
-    border-radius: 12px;
-    
 }
 
 .wrongBox {
@@ -94,7 +92,7 @@ label {
 }
 
 .timeRemain #time-remain {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 body .container {
@@ -114,12 +112,13 @@ body .container {
 
 .questions {
     font-size: 25px;
+    letter-spacing: 2px;
     
 }
 
 .ques,
 label {
-    padding: 1%;
+    padding: 2%;
 }
 
 header {
